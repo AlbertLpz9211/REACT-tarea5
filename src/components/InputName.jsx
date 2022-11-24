@@ -10,8 +10,8 @@ const InputName = () => {
   const dispatch = useDispatch();
 
   const enterName = () => {
-    navigate("/pokedex");
     dispatch(changeUserName(userName));
+    navigate("/pokedex");
   };
 
   return (
